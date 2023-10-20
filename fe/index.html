@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A-dahero</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lexend&family=Pixelify+Sans&family=Young+Serif&display=swap');
+    </style>
+</head>
+<body>
+    <div class="page-nav">
+    <img src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/online-shop-logo-design-template-52fb5d20340e189b9811829472778f35_screen.jpg?ts=1649923697" alt="">
+    <h1>DAHERO Compra y Vende en linea</h1>
+    
+    <button id="checkout" class="button-chekout" onclick="pay()">Pagar</button>
+    </div>
+    <div id="category"  class="category"></div>
+    
+    <button id="create-product">Publica tu producto</button>
+    <dialog id="new-products">
+        <form class="form" id="form" action="">
+        <h1>Vende lo que quieras...</h1>
+        <p>A través de este formulario podras cargar la informacion necesaria del producto que ya no usas y que deseas vender.. solo atrevete! </p>
+        <h4>Nombre del producto</h4>
+        <input id="title" placeholder="Indica el nombre de tu producto" type="text"> 
+        <h4>Indicar el precio del producto</h4>
+        <input id="price" placeholder="Indicar solo números" type="text" value="">
+        <h4>Indicar la marca y modelo de tu producto, o una breve descripción del producto)</h4>
+        <input id="description" type="text">
+        <h4>¿Cuantas unidades quieres vender?</h4>
+        <input id="stock" placeholder="indicar solo números" type="number">
+        <h4>Carga la imagen de tu producto que quieres se muestre en plataforma</h4>
+        <input id="img" placeholder="link de tu imagen" type="text">
+        <h4>Categoria</h4>
+        <!-- <label for="category">Escoge la categoria de tu producto:</label>
+        <select id="categories" name="category" id="categories">
+        <option value="Electronics">Electronics</option>
+        <option value="Hogar">Hogar</option>
+        <option value="Mascotas">Mascotas</option>
+        <option value="Vehiculos">Vehiculos</option>
+        <option value="Tecnología">Tecnología</option>
+        <option value="Moda">Moda</option>
+        <option value="Juguetes">Juguetes</option>
+        </select> -->
+        <p>Con esta información postearemos tu producto en nuestra plataforma.   
+        </p>
+        <button id="close-modal" >Cerrar</button>
+        <p>Gracias!</p>
+        <input type="submit" value="Crear producto">
+    </form>
+    </dialog>
+
+    <div id="page-content" class="page-content"></div>
+    
+    <!-- <a href="Hola"></a> -->
+    
+
+
+    <script src="scripts.js"></script>
+
+</body>
+</html>

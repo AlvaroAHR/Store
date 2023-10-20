@@ -1,0 +1,249 @@
+* {
+    padding: 0;
+    box-sizing: 0;
+}
+
+body {
+    margin: 0px;
+    background-color: rgb(250, 253, 254);
+    font-family: 'Lexend', sans-serif;
+    color: #273038d3;
+}
+
+button {
+    font-size: 16px;
+    text-align: center;
+    border-radius: 8px;
+    padding: 10px 20px;
+}
+
+.page-nav {
+    display: flex;
+    flex-direction: row;
+    padding: 0 14px;
+    background-color: #76e3b6;
+    border: 1px solid white;
+    position: relative;
+}
+
+.page-nave h1 {
+    left: 8px;
+    margin: 20px;
+    
+
+}
+
+.page-nav img {
+    padding: 5px;
+    width: 100px;
+    height: 85px;
+    
+}
+
+.category {
+    display: flex;
+    color: #e57868;
+    transition-duration: 0.4s;
+    right: 15px;
+    bottom: 15px;
+    padding: 5px;
+    font-family: 'Lexend', sans-serif;  
+    
+}
+
+.category button {
+    background-color: white;
+    color: black;
+    border: 2px solid #fdfdfd;
+    transition-duration: 0.4s;
+    right: 15px;
+    bottom: 15px;
+}
+
+.category button:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#new-products {
+    border-radius: 2%;
+    padding-left: 1rem;
+    gap: 5px;
+    bottom: 5px;
+}
+
+
+#new-products input {
+    width: 300px;
+    height: 25px;
+    gap: 10px;
+}
+
+#new-products button {
+    display: block;
+    position: absolute;
+    padding: 5px;
+    right: 3rem;
+    bottom: 1Rem;
+       
+    
+}
+
+#new-products button:hover {
+    background-color: #4385d1;
+    color: white;  
+}
+
+#new-products::backdrop {
+    background-color: rgba(0,0,0,0.61);
+    display: block;  
+}
+
+
+
+/* #new-products dropdown {
+    display: inline-block;
+    position: relative;
+  }
+  #new-products .dropdown-content {
+    display: none;
+    position: absolute;
+    width: 100%;
+    overflow: auto;
+    box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+  }
+  #new-products .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  #new-products .dropdown-content a {
+    display: block;
+    color: #000000;
+    padding: 5px;
+    text-decoration: none;
+  }
+  #new-products .dropdown-content a:hover {
+    color: #FFFFFF;
+    background-color: #00A4BD;
+  } */
+
+
+
+#create-product {
+    background-color: rgb(80, 227, 132);
+    color: rgb(255, 253, 253);
+    border: 2px solid #008CBA;
+    transition-duration: 0.4s;
+    position: absolute;
+    left: 115px;
+    top: 110px;
+}
+
+#create-product:hover {
+    background-color: #28c373;
+    color: white;
+
+}
+
+.button-create-product {
+    background-color: white;
+    color: black;
+    border: 2px solid #2dbc88;
+    transition-duration: 0.4s;
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+        
+}
+
+.button-create-product:hover {
+    background-color: #008CBA;
+    color: white;
+}
+
+.button-chekout {
+    background-color: white;
+    color: black;
+    border: 2px solid #008CBA;
+    transition-duration: 0.4s;
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+
+}
+
+.button-chekout:hover {
+    background-color: #008CBA;
+    color: white;
+}
+
+.page-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.product-container {
+    display: flexbox;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 2px 16px;
+    position: relative;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
+    background-color: white;
+}
+
+.product-container:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+
+.category {
+    display: flex;
+    justify-content: center;
+    color: #e57868;
+    gap: 1em;
+}
+
+
+.product-container h1 {
+    color: #008CBA;
+    margin-bottom: 8px;
+    margin-left: 15px;
+}
+
+.product-container img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.button-add {
+    
+    background-color: white;
+    color: black;
+    border: 3px solid #4CAF50;
+    transition-duration: 0.4s;
+    top: 5px;
+    
+    
+}
+
+.button-add:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.button-add.disabled {
+    
+    background-color: rgba(128, 125, 125, 0.831);
+    color: rgb(217, 215, 215);
+    border: 2px solid #4CAF50;
+    transition-duration: 0.4s;
+    
+}
+
+.button-add.disabled:hover {
+    background-color: #e57868;
+    color: white;
+}
+
